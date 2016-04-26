@@ -7,9 +7,26 @@
 		<TableView Intent="Menu">
 			<TableRoot>
 				<TableSection>
-					<ImageCell ImageSource="location.png" Text="Localização" />
-					<ImageCell ImageSource="settings.png" Text="Configurações" />
-					<ImageCell ImageSource="email.png" Text="E-mail" />
+					<ViewCell>
+						<StackLayout Padding="15, 5, 15, 5" Orientation="Horizontal">
+							<Image Source="location.png" />
+							<Label Text="Localização" VerticalOptions="Center" />
+						</StackLayout>
+					</ViewCell>
+
+					<ViewCell>
+						<StackLayout Padding="15, 5, 15, 5" Orientation="Horizontal">
+							<Image Source="settings.png" />
+							<Label Text="Configurações" VerticalOptions="Center" />
+						</StackLayout>
+					</ViewCell>
+
+					<ViewCell>
+						<StackLayout Padding="15, 5, 15, 5" Orientation="Horizontal">
+							<Image Source="email.png" />
+							<Label Text="E-mail" VerticalOptions="Center" />
+						</StackLayout>
+					</ViewCell>
 				</TableSection>
 			</TableRoot>
 		</TableView>
