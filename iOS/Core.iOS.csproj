@@ -117,5 +117,7 @@
     <BundleResource Include="Resources\location.png" />
     <BundleResource Include="Resources\settings.png" />
     <BundleResource Include="Resources\email.png" />
+    <BundleResource Include="Resources\person_32x32.png" />
+    <BundleResource Include="Resources\phone_48x48.png" />
   </ItemGroup>
 </Project>
